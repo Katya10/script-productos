@@ -24,7 +24,7 @@ uid = common_proxy.login(DB,USER,PASS)
 
 def _create(estado):
     if estado is True:
-        path_file = './ej.csv'
+        path_file = './productos.csv'
         archive = csv.DictReader(open(path_file))
         cont = 1
 
